@@ -9,9 +9,6 @@
 # in a way that is easy to understand.           #
 ##################################################
 
-# Open db file
-# extract web addresses, number of times page was visited and last time visited
-# clean up output
 
 #####
 # import os to use the operating system for the filepath
@@ -145,7 +142,7 @@ def terminal_output(table):
 #####
 def main():
     # variable for the db file
-    paths = get_path('History.db')
+    paths = get_path('CHANGETHIS.db')
     # variable that opens the db file and executes commands
     opens = open_db(paths)
     # variable that reads the table
